@@ -1,0 +1,58 @@
+.prefooter
+	width 100%
+	background-color #242424
+
+.widgets
+	display flex
+	justify-content space-between
+	max-width 960px
+	margin 0 auto
+	color lightColor
+	.widgets__text,.widgets__twitter,.widgets__flicr
+		width 250px
+		h3
+			text-transform uppercase
+			margin 50px 0 20px 0
+		p
+			margin 10px 0
+	
+	.flicr__icons
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		.item__vine, .item__house, .item__detect,
+		.item__layer, .item__robo, .item__inscect
+			width 29%
+			height 60px
+			margin 9px 0
+			background url(../img/vine.png) gray
+			&:hover
+				transform scale(1.2,1.2)
+
+.social
+	display flex
+	justify-content space-between
+	align-items center
+	margin 0 auto
+	max-width 960px
+	border-top 1px solid gray
+	.social__news
+		display flex
+		.newsletter
+			width 210px
+			background-color #2e2e2e
+			border 0
+			margin 40px 0 40px 40px
+		button
+			margin 40px 0
+			height 40px
+			width 40px
+			background-color #7d7d7d
+			border 0
+	img
+		margin-left 10px
+		width 36px
+		height 36px
+		
+		&:hover
+			transform scale(1.2,1.2)

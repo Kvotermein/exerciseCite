@@ -10,6 +10,7 @@
 	justify-content space-between
 	margin 30px 0
 .arrivals__btn,.best__btn
+	cursor pointer
 	width 100px
 	height 30px
 	text-align center
@@ -18,12 +19,22 @@
 .arrivals__content,.best__content
 	display flex
 	justify-content space-between
-
+	
+.descriptional__name-acitve
+	display none
+	
 .arrivals__item,.best__item
 	position relative
 	width 300px
 	height 270px
 	background-color white
+	&:hover
+		.descriptional__name-acitve
+			display block
+			margin-top 10px
+			margin-left 10px
+		.descriptional__name
+			display none
 .content-shoes1
 	background url(../img/shoes1.jpg) 0 0 no-repeat white
 	background-size 40%
